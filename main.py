@@ -17,13 +17,13 @@ a2 = BankAccount("Casey", 100)
 print("SECTION 1\n")
 print("Account Holder:", a1.owner)
 print("Balance:", a1.balance)
-a1.greet
+a1.greet()
 
 print()
 
 print("Account Holder:", a2.owner)
 print("Balance:", a2.balance)
-a2.greet
+a2.greet()
 
 print("-----------------------------------\n")
 
